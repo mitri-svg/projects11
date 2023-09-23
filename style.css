@@ -1,0 +1,72 @@
+body{
+    background-image: url(stadion.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.ron{
+    background-image: url(r.png);
+    background-size: cover;
+    width: 220px;
+    position: absolute;
+    height: 380px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.top{
+    background-image: url(top.png);
+    width: 130px;
+    background-size: cover;
+    height: 130px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 200px;
+    margin-top: 480px;
+    transition: .7s;
+}
+.qapi{
+    background-image: url(qapi.png);
+    background-size: cover;
+    width: 470px;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 130px;
+    height: 600px;
+}
+.qapici{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-image: url(qapici.png);
+    background-size: cover;
+    margin-left: 850px;
+    transition: .7s;
+    transform: rotate(10deg);
+    margin-top: 290px;
+}
+.ron:hover{
+    transform: rotate(-25deg);
+    transition: 0.7s;
+}
+.ron:hover~.top{
+    margin-left: 1100px;
+    margin-top: 300px;
+}
+.ron:hover~.qapici{
+    transform: rotate(-20deg);
+}
+.p{
+    scale: 0.01;
+    color: white;
+    font-size: 4em;
+    margin-left: 550px;
+    margin-top: 200px;
+    position: absolute;
+}
+.ron:hover~.p{
+    scale: 1.1;
+    transition: .8s;
+}
+.p::first-letter{
+    font-size: 1.2em;
+}
