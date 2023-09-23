@@ -11,6 +11,7 @@ body{
     position: absolute;
     height: 380px;
     margin-top: 200px;
+    transition: 0.7s;
     margin-left: 100px;
 }
 .top{
@@ -46,7 +47,6 @@ body{
 }
 .ron:hover{
     transform: rotate(-25deg);
-    transition: 0.7s;
 }
 .ron:hover~.top{
     margin-left: 1100px;
@@ -61,6 +61,7 @@ body{
     font-size: 4em;
     margin-left: 550px;
     margin-top: 200px;
+    transition: .7s;
     position: absolute;
 }
 .ron:hover~.p{
